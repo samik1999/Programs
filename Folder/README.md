@@ -18,10 +18,13 @@ You can find the source code for this project at: [Your Repository URL](https://
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
 
-You can install the required packages using the following command:
-
-```bash
+#### You can install the required packages using the following command:
 pip3 install -r requirements.txt
+
+### Set up postgress database and add information fo following data in data.py
+your_username(DB_USERNAME)
+your_password(DB_PASSWORD)
+your_database(DB_NAME)
 
 ## To run the unit tests, use the following command:
 python3 -m unittest discover
