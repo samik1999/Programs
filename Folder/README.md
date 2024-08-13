@@ -19,8 +19,9 @@ folder - Folder
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
+   git clone https://github.com/samik1999/Programs
+   cd Programs
+  
 
 #### You can install the required packages using the following command:
 pip3 install -r requirements.txt
