@@ -4,7 +4,11 @@
 This project is a Pokémon Battle Simulator developed using Flask. It allows users to list Pokémon, start battles between them, and retrieve battle results.
 
 ## Repository
-You can find the source code for this project at: [Your Repository URL](https://github.com/yourusername/your-repository)
+You can find the source code for this project at: (https://github.com/samik1999/Programs/pokemonBranch/Folder)
+
+colon repo - https://github.com/samik1999/Programs
+branch - pokemonBranch
+folder - Folder
 
 ## Setup
 
