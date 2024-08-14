@@ -3,10 +3,10 @@ import json
 
 class Database:
     def __init__(self):
-        self.DB_HOST = 'localhost'
-        self.DB_NAME = 'your_database_name'
-        self.DB_USER = 'your_username'
-        self.DB_PASS = 'your_password'
+        self.DB_HOST = 'dpg-cqu4n6ij1k6c73doti0g-a'
+        self.DB_NAME = 'pokemon_h29e'
+        self.DB_USER = 'samikshabidua'
+        self.DB_PASS = '2DK4HM4rN1Qe7GRc8MH7i4kA4O9phzfQ'
 
     def connect(self):
         return psycopg2.connect(host=self.DB_HOST, database=self.DB_NAME, user=self.DB_USER, password=self.DB_PASS)
