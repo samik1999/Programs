@@ -26,10 +26,12 @@ folder - Folder
 #### You can install the required packages using the following command:
 pip3 install -r requirment.txt
 
-### Set up postgress database and add information fo following data in data.py
-your_username(DB_USERNAME)
-your_password(DB_PASSWORD)
-your_database(DB_NAME)
+### Set up postgress database and add env variable value fo following data in data.py
+ os.getenv("DB_HOST")
+ os.getenv("DB_NAME")
+ os.getenv("DB_USER")
+ os.getenv("DB_PASS")
+
 
 ## To run the unit tests, use the following command:
 python3 -m unittest discover
