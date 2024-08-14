@@ -6,6 +6,7 @@ from pydantic import BaseModel, ValidationError
 from typing import List, Dict, Any, Optional
 from data import Database
 from pokémonBattleSimulator import PokemonBattleSimulator
+import os
 
 app = Flask(__name__)
 
@@ -122,4 +123,4 @@ def get_battle_result(battle_id):
         return jsonify(error_response.model_dump()), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+     app.run(debug=True, host="0.0.0.0", port= os.getenv("PORT"))
