@@ -3,5 +3,3 @@ psycopg2
 pandas
 pydantic
 python-dotenv
-os
-
