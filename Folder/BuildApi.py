@@ -9,7 +9,7 @@ from pokémonBattleSimulator import PokemonBattleSimulator
 
 app = Flask(__name__)
 
-file_path = 'pokemon.csv'
+file_path = 'Folder/pokemon.csv'
 pokemon_data = pd.read_csv(file_path)
 
 db = Database()
