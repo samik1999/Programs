@@ -24,7 +24,7 @@ folder - Folder
   
 
 #### You can install the required packages using the following command:
-pip3 install -r requirement.txt
+pip3 install -r requirment.txt
 
 ### Set up postgress database and add information fo following data in data.py
 your_username(DB_USERNAME)
