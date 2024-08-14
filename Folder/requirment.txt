@@ -3,3 +3,4 @@ psycopg2==2.9.3
 pandas==1.4.3
 pydantic==1.10.4
 python-dotenv==0.20.0
+werkzeug==1.0.1
